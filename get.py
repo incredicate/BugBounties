@@ -1,3 +1,5 @@
+# GET requests via Python3
+
 from urllib import request
 import requests
 from requests.structures import CaseInsensitiveDict
